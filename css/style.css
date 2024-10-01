@@ -534,6 +534,7 @@ footer {
 .button a:hover {
     background-color: #FF7A59;
     color: #ffffff;
+    transition: 5s;
 }
 
 .button-wrapper:hover {

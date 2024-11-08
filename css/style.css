@@ -539,7 +539,7 @@ header {
 .about-circle {
     width: 100px;
     height: 100px;
-    background-color: #ccc;
+    background-color: #FF7A59;
     border-radius: 50%;
 }
 
@@ -564,11 +564,11 @@ header {
     align-items: center;
 }
 
-.values-image {
+.values-image img {
     width: 100%;
     height: 300px;
-    background-color: #ccc;
-    border-radius: 8px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .values-list {
@@ -604,24 +604,26 @@ header {
 }
 
 .doctor-card {
-  background-color: #ccc;
+  background-color: #082454;
   border-radius: 8px;
   width: 150px;
   display: flex;
   flex-direction: column;
+  text-align: center;
   align-items: center;
-  justify-content: space-between;
 }
 
-.doctor-image {
-  background-color: #b0b0b0;
+.doctor-image img {
   width: 100%;
-  height: 150px;
+  height: 200px;
   border-radius: 8px 8px 0 0;
+  object-fit: cover;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .doctor-info {
-  background-color: #666;
+  font-family: "noto-sans-medium";
+  background-color: #082454;
   color: white;
   text-align: center;
   padding: 0.5rem;
@@ -630,6 +632,7 @@ header {
 }
 
   /*SERVICES PAGE*/
+  
 
   /*BLOG PAGE*/
 
